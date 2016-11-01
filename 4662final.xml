@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+[
+<!ELEMENT concept (sub,body)>
+<!ELEMENT sub (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+
+
+<concept>
+    <sub>License Management</sub>
+    <body>When digital content is sold online, the purchaser is effectively licensing content from a publisher. Publishers impose strict DRM software and bandwidth-hungry authentication methods that restrict the user experience and render media unusable. Syncurator captures license information and allows publishers to ensure the fair use of their content all while providing the user with the best experience possible</body>
+</concept>
+
+<concept>
+    <sub>User-Oriented Design</sub>
+    <body>Syncurator works to serve licensed media to the user, taking away conventional barriers like platform DRM that impairs accessibility and detracts from the user experience. With Syncurator, the user is able to stream their own media and consume content on their own terms.</body>
+</concept>
+
+<concept>
+    <sub>Top-Notch Security</sub>
+    <body>Syncurator uses secure data storage practices and uses strong authentication to ensure content is only accessible to the content owner. Additionally, Syncurator uses transparent security measures so user experience is always the priority. Whether content is stored locally or being streamed, files are managed securely and quality is better than ever.</body>
+</concept>
+
+<Platforms>
+    <os category="ms">
+        <title>Windows</title>
+        <org>Microsoft</org>
+        <free>No</free>
+    </os>
+    <os category="nix">
+        <title>Linux</title>
+        <org>Open Source</org>
+        <free>Yes</free>
+    </os>
+    <os category="osx">
+        <title>Mac OS X</title>
+        <org>Apple</org>
+        <free>No</free>
+    </os>    
+</Platforms>
+
+<Pricing>
+    <individual>
+        <title>Syncurator for Personal Use</title>
+        <type>This license is for one user who may only access content in one session</type>
+        <price>$1 per title that is added to the Syncurator platform</price>
+    </individual>
+    <group>
+        <title>Syncurator for the Home</title>
+        <type>This license is for multiple users ( under 10) who may only access content in up to 10 sessions </type>
+        <price>Pricing is based on consumption. Each new title costs $1 and surcharges will be applied based on traffic volume per monthly period.</price>
+    </group>
+    <enterprise>
+        <title>Syncurator for All</title>
+        <type>This license is for a company that wants unparalleled media license management</type>
+        <price>Pricing is determined by the affiliates of Syncurator and surcharges are applied based on the number of licenses that are maintained.</price>
+    </enterprise>    
+</Pricing>
